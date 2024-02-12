@@ -1,11 +1,12 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
-header{
+
+header {
     width: 100%;
-    
+
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -16,49 +17,57 @@ header{
     z-index: 1;
     flex-wrap: wrap;
     gap: 20px;
-    
-}
-.logo{
-  
-    display: flex;
-    align-items: center;
-    
-   
 
 }
-.logo > h1{
+
+.logo {
+
+    display: flex;
+    align-items: center;
+
+
+
+}
+
+.logo>h1 {
     font-size: 1.5rem;
     font-weight: bolder;
-    font-family:sans-serif;
-    
+    font-family: sans-serif;
+
 }
-.logo .red{
-   
+
+.logo .red {
+
     color: red;
     font-style: italic;
     text-shadow: 2px 2px silver;
 }
-.logo .white{
+
+.logo .white {
     padding-left: 100px;
     color: white;
     font-style: italic;
     text-shadow: 2px 2px silver;
 }
-.search{
+
+.search {
     display: flex;
     align-items: center;
     justify-content: right;
     gap: 10px;
 }
-.sl-1{
+
+.sl-1 {
     width: 200px;
     height: 30px;
 }
-.sl-2{
+
+.sl-2 {
     width: 150px;
     height: 30px;
 }
-button{
+
+button {
     width: 100px;
     height: 30px;
     display: flex;
@@ -71,49 +80,57 @@ button{
     text-shadow: 2px 2px silver;
     cursor: pointer;
     box-shadow: rgba(226, 7, 7, 0.973) 0px 2px 1px, rgb(236, 6, 6) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
-    
+
 }
-button:active{
-    color:red;
+
+button:active {
+    color: red;
 }
-@media screen and (max-width:730px){
-    .logo{
+
+@media screen and (max-width:730px) {
+    .logo {
         width: 100%;
         justify-content: center;
 
     }
-    .logo .white{
+
+    .logo .white {
         padding: 50px;
     }
-    .search{
+
+    .search {
         width: 100%;
         justify-content: center;
-       
+
     }
-    
+
 }
-.main{
+
+.main {
     width: 100%;
-    
+
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    background-color: antiquewhite;
+
     margin-top: 80px;
 }
-.bg-img{
-width: 100%;
-display: flex;
-align-items: center;
-justify-content: center;
-object-fit: cover;
+
+.bg-img {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
 }
-.bg-img > img{
+
+.bg-img>img {
     width: 100%;
 }
-@media screen and (max-width:730px){
-    .main{
+
+@media screen and (max-width:730px) {
+    .main {
         margin-top: 130px;
     }
 }
