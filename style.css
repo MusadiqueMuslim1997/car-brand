@@ -108,7 +108,7 @@ button:active {
 
 .main {
     width: 100%;
-
+     
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -119,6 +119,7 @@ button:active {
 
 .bg-img {
     width: 100%;
+    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -127,6 +128,7 @@ button:active {
 
 .bg-img>img {
     width: 100%;
+    
 }
 
 @media screen and (max-width:730px) {
