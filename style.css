@@ -182,3 +182,8 @@ button:active {
     background-color: aquamarine;
     padding-bottom: 20px;
 }
+.card-img > img{
+    width: 100%;
+   
+    object-fit: cover;
+}
