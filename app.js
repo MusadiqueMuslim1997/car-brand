@@ -132,9 +132,30 @@ for(var key1 in carlist[key]){
 
 
 
+
 function setModel(){
     model.innerHTML = "";
     for (var key in carlist[brand.value]){
         model.innerHTML += `<option vlaue = "${key}">${key}</option>`
     }
+}
+carDetail.style.display = "none";
+function searchCar(){
+    main.style.display = "none";
+    carDetail.style.display = "flex";
+    var carDetail = document.getElementById("carDetail")
+    var car = carlist[brand.value][model.value];
+    carDetail.innerHTML = `
+    <div class="c1">
+    <div class="card-img" id="img-1"><img src="${car.image}""></div>
+    <div class="card-info">${car.name} (${car.model})</div>
+    <div class="para">
+    ${car.fulltype}<br />
+   ${car.seat}<br />
+   ${car.speed}
+    </div>
+    <div class = "price"><h4>${obj.price}</h4></div>
+    <div class = "color">${colorDiv}<div>
+</div>
+    `
 }

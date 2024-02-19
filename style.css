@@ -134,10 +134,9 @@ button:active {
 
 
 .cards {
-    margin-top: 80px;
+
     width: 100%;
- 
-   
+    margin-top: 80px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -155,7 +154,7 @@ button:active {
     flex-wrap: wrap;
     background-color: white;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    
+
     padding: 20px;
 
 }
@@ -167,7 +166,7 @@ button:active {
     align-items: center;
     justify-content: center;
     object-fit: cover;
-    
+
 }
 
 .card-info {
@@ -179,21 +178,24 @@ button:active {
     justify-content: center;
     text-align: center;
     text-align: center;
-    
-   
+
+
 }
-.card-img > img{
+
+.card-img>img {
     width: 100%;
-   
+
     object-fit: cover;
 }
+
 @media screen and (max-width:730px) {
     .cards {
         margin-top: 130px;
         justify-content: space-around;
     }
 }
-.para{
+
+.para {
     width: 100%;
     display: flex;
     align-items: center;
@@ -202,37 +204,70 @@ button:active {
     line-height: 20px;
     font-weight: 700;
 }
-.price{
+
+.price {
     width: 100%;
     text-align: center;
-   
+
 }
-.color{
+
+.color {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 10px;
-   
+
 }
-.black{
+
+.black {
     width: 15px;
     height: 15px;
     border-radius: 50%;
     background-color: black;
     border: 1px solid black;
 }
-.white{
+
+.white {
     width: 15px;
     height: 15px;
     border-radius: 50%;
     background-color: white;
     border: 1px solid black;
 }
-.red{
+
+.red {
     width: 15px;
     height: 15px;
     border-radius: 50%;
     background-color: red;
     border: 1px solid black;
+}
+
+.searchCar {
+    width: 100%;
+    height: 100vh;
+    margin-top: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: antiquewhite;
+  
+}
+
+@media screen and (max-width:730px) {
+    .searchCar {
+        margin-top: 130px;
+        justify-content: space-around;
+    }
+}
+.c1{
+    width: 500px;
+    height: 600px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
