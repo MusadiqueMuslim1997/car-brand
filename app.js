@@ -146,7 +146,8 @@ function setModel() {
 function searchCar() {
  var carDetail = document.getElementById("car-detail");
  var car = carlist[brand.value][model.value];
-
+ main.style.display = "none";
+ carDetail.style.display = "flex"
  carDetail.innerHTML = `
  <div class="c1">
  <div class="card-img" id="img-1"><img src="${car.image}""></div>
