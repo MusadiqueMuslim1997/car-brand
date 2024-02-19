@@ -254,6 +254,7 @@ button:active {
     padding: 20px;
     background-color: antiquewhite;
   
+  
 }
 
 @media screen and (max-width:730px) {
@@ -270,4 +271,5 @@ button:active {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    padding: 30px;
 }
