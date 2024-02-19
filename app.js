@@ -11,8 +11,8 @@ var carlist = {
             seat: "5 Seaters",
             speed: "130mph",
             color:["red" , "white", "black"],
-            price: "PKR 7.4 crore"
-
+            price: "PKR 7.4 crore",
+            image: "images/bmw5.png"
 
 
         },
@@ -24,7 +24,8 @@ var carlist = {
             seat: "5 Seaters",
             speed: "155mph",
             color:["red" , "white", "black"],
-            price: "PKR 2.9 crore"
+            price: "PKR 2.9 crore",
+            image: "images/bm7.png"
 
         },
         
@@ -35,7 +36,8 @@ var carlist = {
             seat: "5 Seaters",
             speed: "155mph",
             color:["red" , "white", "black"],
-            price: "PKR 3.4 crore"
+            price: "PKR 3.4 crore",
+            image: "images/bmm.png"
 
         }
 
@@ -74,7 +76,7 @@ for(var key1 in carlist[key]){
 
     main.innerHTML += `
     <div class="card-1">
-    <div class="card-img" id="img-1"><img src="images/bmw5.png" alt=""></div>
+    <div class="card-img" id="img-1"><img src="${obj.image}""></div>
     <div class="card-info">${obj.name} (${obj.model})</div>
     <div class="para">
     ${obj.fulltype}<br />
