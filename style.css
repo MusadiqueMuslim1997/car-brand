@@ -213,7 +213,7 @@ button:active {
     align-items: center;
     justify-content: center;
     gap: 10px;
-    margin-bottom: 10px;
+    padding-bottom: 20px;
 }
 .black{
     width: 15px;
