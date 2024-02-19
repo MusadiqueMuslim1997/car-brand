@@ -9,6 +9,7 @@ var carlist = {
             model: "2024",
             fulltype: "Hybrid",
             seat: "5 Seaters",
+            speed: "130mph",
             color:["red" , "white", "black"],
             price: "PKR 7.4 crore"
 
@@ -21,6 +22,7 @@ var carlist = {
             model: "2024",
             fulltype: "Petrol",
             seat: "5 Seaters",
+            speed: "155mph",
             color:["red" , "white", "black"],
             price: "PKR 2.9 crore"
 
@@ -31,6 +33,7 @@ var carlist = {
             model: "2023",
             fulltype: "Hybrid",
             seat: "5 Seaters",
+            speed: "155mph",
             color:["red" , "white", "black"],
             price: "PKR 3.4 crore"
 
@@ -75,7 +78,8 @@ for(var key1 in carlist[key]){
     <div class="card-info">${obj.name} (${obj.model})</div>
     <div class="para">
     ${obj.fulltype}<br />
-   ${obj.seat}
+   ${obj.seat}<br />
+   ${obj.speed}
     </div>
     <div class = "price"><h4>${obj.price}</h4></div>
     <div class = "color">${colorDiv}<div>
