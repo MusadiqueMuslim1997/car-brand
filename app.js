@@ -128,3 +128,13 @@ for(var key1 in carlist[key]){
 
 }
 }
+
+
+
+
+function setModel(){
+    model.innerHTML = "";
+    for (var key in carlist[brand.value]){
+        model.innerHTML += `<option vlaue = "${key}">${key}</option>`
+    }
+}
