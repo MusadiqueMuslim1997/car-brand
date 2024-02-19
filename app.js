@@ -92,8 +92,12 @@ var carlist = {
 
 
 var main = document.getElementById("main");
+var brand = document.getElementById("brand");
+var model = document.getElementById("model");
 
 for(var key in carlist){
+
+    brand.innerHTML += `<option vlaue = "${key}">${key}</option>`
 for(var key1 in carlist[key]){
 
     var obj = carlist[key][key1];
