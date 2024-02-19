@@ -246,15 +246,15 @@ button:active {
 
 .searchCar {
     width: 100%;
-    
+
     margin-top: 90px;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 20px;
-   
-  display: none;
-  
+
+    display: none;
+
 }
 
 @media screen and (max-width:730px) {
@@ -263,7 +263,8 @@ button:active {
         justify-content: space-around;
     }
 }
-.c1{
+
+.c1 {
     width: 450px;
     height: 500px;
     background-color: white;
@@ -272,21 +273,21 @@ button:active {
     justify-content: center;
     flex-wrap: wrap;
     padding: 40px;
-    
+
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 @media screen and (max-width:500px) {
     .c1 {
         width: 320px;
-    height: 350px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    background-color: white;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        height: 350px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        background-color: white;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 
-    padding: 20px;
+        padding: 20px;
     }
 }
