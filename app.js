@@ -45,6 +45,37 @@ var carlist = {
 
     Honda:{
 
+        HondaCivic:{
+            name: "Honda Civic",
+            model: "2022",
+            fulltype: "Petrol",
+            seat: "5 Seaters",
+            speed: "137mph",
+            color:["red" , "white", "black"],
+            price: "PKR 99 lacs",
+            image: "images/hcivic.png"
+        },
+        HondaCity:{
+            name: "Honda City",
+            model: "2023",
+            fulltype: "Petrol",
+            seat: "5 Seaters",
+            speed: "195kmph",
+            color:["red" , "white", "black"],
+            price: "PKR 47 lacs",
+            image: "images/hcity.png"
+        },
+        HondaAccord:{
+            name: "Honda Accord",
+            model: "2023",
+            fulltype: "Petrol",
+            seat: "5 Seaters",
+            speed: "116mph",
+            color:["red" , "white", "black"],
+            price: "PKR 2.5 crore",
+            image: "images/hacc.png"
+        }
+
     },
 
     Audi:{
