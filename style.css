@@ -155,7 +155,7 @@ button:active {
     background-color: white;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     gap: 20px;
-    text-shadow: 2px 2px white;
+    
 
 }
 
@@ -172,7 +172,7 @@ button:active {
 
 .card-info {
     width: 100%;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: bolder;
     display: flex;
     align-items: center;
@@ -199,4 +199,38 @@ button:active {
     align-items: center;
     justify-content: center;
     text-align: center;
+}
+.price{
+    width: 100%;
+    text-align: center;
+    background-color: antiquewhite;
+}
+.color{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.black{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: black;
+    border: 1px solid black;
+}
+.white{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid black;
+}
+.red{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: red;
+    border: 1px solid black;
 }
