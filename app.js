@@ -88,7 +88,7 @@ var carlist = {
             speed: "149 mph",
             color: ["red", "white", "black"],
             price: "PKR 2.25 crore",
-            image: "images/hcivic.png"
+            image: "images/asport.png"
         },
         Q5eTRON: {
             name: "Q5 e-Tron",
@@ -98,7 +98,7 @@ var carlist = {
             speed: "237 kmph",
             color: ["red", "white", "black"],
             price: "PKR 1.94 crore",
-            image: "images/hcity.png"
+            image: "images/qetron.png"
         },
         Q6eTron: {
             name: "Q6 e-Tron",
@@ -108,7 +108,7 @@ var carlist = {
             speed: "124.3 mph",
             color: ["red", "white", "black"],
             price: "PKR 5.1 crore",
-            image: "images/hacc.png"
+            image: "images/q.png"
         }
 
     },
