@@ -114,7 +114,36 @@ var carlist = {
     },
 
     Suzuki: {
-
+        MarutiSwiftDzireTour: {
+            name: "Maruti Swift Dzire Tour",
+            model: "2022",
+            fulltype: "Petrol, CNG",
+            seat: "5 Seaters",
+            speed: "137 mph",
+            color: ["red", "white", "black"],
+            price: "PKR 99 lacs",
+            image: "images/hcivic.png"
+        },
+        MarutiWagonRtour: {
+            name: "Maruti Wagon R tour",
+            model: "2023",
+            fulltype: "Petrol, CNG",
+            seat: "5 Seaters",
+            speed: "195 kmph",
+            color: ["red", "white", "black"],
+            price: "PKR 47 lacs",
+            image: "images/hcity.png"
+        },
+        MarutiGrandVitara: {
+            name: "Maruti Grand Vitara",
+            model: "2023",
+            fulltype: "Petrol, CNG",
+            seat: "5 Seaters",
+            speed: "116 mph",
+            color: ["red", "white", "black"],
+            price: "PKR 2.5 crore",
+            image: "images/hacc.png"
+        }
 
     }
 
