@@ -83,7 +83,7 @@ var carlist = {
         Q5SPORTBACK: {
             name: "Q5 SportBack",
             model: "2021",
-            fulltype: "Petrol",
+            fulltype: "Fully Electric",
             seat: "5 Seaters",
             speed: "149 mph",
             color: ["red", "white", "black"],
@@ -93,7 +93,7 @@ var carlist = {
         Q5eTRON: {
             name: "Q5 e-Tron",
             model: "2022",
-            fulltype: "Petrol",
+            fulltype: "Fully Electric",
             seat: "5 Seaters",
             speed: "237 kmph",
             color: ["red", "white", "black"],
@@ -103,7 +103,7 @@ var carlist = {
         Q6eTron: {
             name: "Q6 e-Tron",
             model: "2022",
-            fulltype: "Petrol",
+            fulltype: "Fully Electric",
             seat: "5 Seaters",
             speed: "124.3 mph",
             color: ["red", "white", "black"],
