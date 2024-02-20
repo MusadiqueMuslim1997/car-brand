@@ -9,7 +9,7 @@ var carlist = {
             model: "2024",
             fulltype: "Hybrid",
             seat: "5 Seaters",
-            speed: "130mph",
+            speed: "130 mph",
             color: ["red", "white", "black"],
             price: "PKR 7.4 crore",
             image: "images/bmw5.png"
@@ -22,7 +22,7 @@ var carlist = {
             model: "2024",
             fulltype: "Petrol",
             seat: "5 Seaters",
-            speed: "155mph",
+            speed: "155 mph",
             color: ["red", "white", "black"],
             price: "PKR 2.9 crore",
             image: "images/bm7.png"
@@ -34,7 +34,7 @@ var carlist = {
             model: "2023",
             fulltype: "Hybrid",
             seat: "5 Seaters",
-            speed: "155mph",
+            speed: "155 mph",
             color: ["red", "white", "black"],
             price: "PKR 3.4 crore",
             image: "images/bmm.png"
@@ -50,7 +50,7 @@ var carlist = {
             model: "2022",
             fulltype: "Petrol",
             seat: "5 Seaters",
-            speed: "137mph",
+            speed: "137 mph",
             color: ["red", "white", "black"],
             price: "PKR 99 lacs",
             image: "images/hcivic.png"
@@ -60,7 +60,7 @@ var carlist = {
             model: "2023",
             fulltype: "Petrol",
             seat: "5 Seaters",
-            speed: "195kmph",
+            speed: "195 kmph",
             color: ["red", "white", "black"],
             price: "PKR 47 lacs",
             image: "images/hcity.png"
@@ -70,7 +70,7 @@ var carlist = {
             model: "2023",
             fulltype: "Petrol",
             seat: "5 Seaters",
-            speed: "116mph",
+            speed: "116 mph",
             color: ["red", "white", "black"],
             price: "PKR 2.5 crore",
             image: "images/hacc.png"
@@ -79,6 +79,37 @@ var carlist = {
     },
 
     Audi: {
+
+        Q5SPORTBACK: {
+            name: "Q5 SportBack",
+            model: "2021",
+            fulltype: "Petrol",
+            seat: "5 Seaters",
+            speed: "149 mph",
+            color: ["red", "white", "black"],
+            price: "PKR 2.25 crore",
+            image: "images/hcivic.png"
+        },
+        Q5eTRON: {
+            name: "Q5 e-Tron",
+            model: "2022",
+            fulltype: "Petrol",
+            seat: "5 Seaters",
+            speed: "237 kmph",
+            color: ["red", "white", "black"],
+            price: "PKR 1.94 crore",
+            image: "images/hcity.png"
+        },
+        Q6eTron: {
+            name: "Q6 e-Tron",
+            model: "2022",
+            fulltype: "Petrol",
+            seat: "5 Seaters",
+            speed: "124.3 mph",
+            color: ["red", "white", "black"],
+            price: "PKR 5.1 crore",
+            image: "images/hacc.png"
+        }
 
     },
 
