@@ -121,27 +121,27 @@ var carlist = {
             seat: "5 Seaters",
             speed: "137 mph",
             color: ["red", "white", "black"],
-            price: "PKR 99 lacs",
+            price: "PKR 50 lacs",
             image: "images/ss.png"
         },
         MarutiWagonRtour: {
             name: "Maruti Wagon R tour",
-            model: "2023",
+            model: "2024",
             fulltype: "Petrol, CNG",
-            seat: "5 Seaters",
+            seat: "7 Seaters",
             speed: "195 kmph",
             color: ["red", "white", "black"],
-            price: "PKR 47 lacs",
+            price: "PKR 34 lacs",
             image: "images/sr.png"
         },
         MarutiGrandVitara: {
             name: "Maruti Grand Vitara",
-            model: "2023",
+            model: "2018",
             fulltype: "Petrol, CNG",
-            seat: "5 Seaters",
+            seat: "7 Seaters",
             speed: "116 mph",
             color: ["red", "white", "black"],
-            price: "PKR 2.5 crore",
+            price: "PKR 13.03 lacs",
             image: "images/swift.png"
         }
 
