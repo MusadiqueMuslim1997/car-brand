@@ -1,5 +1,41 @@
 var carlist = {
 
+   
+    
+    Audi: {
+
+        Q5SPORTBACK: {
+            name: "Q5 SportBack",
+            model: "2021",
+            fulltype: "Fully Electric",
+            seat: "5 Seaters",
+            speed: "149 mph",
+            color: ["red", "white", "black"],
+            price: "PKR 2.25 crore",
+            image: "images/asport.png"
+        },
+        Q5eTRON: {
+            name: "Q5 e-Tron",
+            model: "2022",
+            fulltype: "Fully Electric",
+            seat: "5 Seaters",
+            speed: "237 kmph",
+            color: ["red", "white", "black"],
+            price: "PKR 1.94 crore",
+            image: "images/qetron.png"
+        },
+        Q6eTron: {
+            name: "Q6 e-Tron",
+            model: "2022",
+            fulltype: "Fully Electric",
+            seat: "5 Seaters",
+            speed: "124.3 mph",
+            color: ["red", "white", "black"],
+            price: "PKR 5.1 crore",
+            image: "images/q.png"
+        }
+
+    },
     BMW: {
 
         BMWX5: {
@@ -74,41 +110,6 @@ var carlist = {
             color: ["red", "white", "black"],
             price: "PKR 2.5 crore",
             image: "images/hacc.png"
-        }
-
-    },
-
-    Audi: {
-
-        Q5SPORTBACK: {
-            name: "Q5 SportBack",
-            model: "2021",
-            fulltype: "Fully Electric",
-            seat: "5 Seaters",
-            speed: "149 mph",
-            color: ["red", "white", "black"],
-            price: "PKR 2.25 crore",
-            image: "images/asport.png"
-        },
-        Q5eTRON: {
-            name: "Q5 e-Tron",
-            model: "2022",
-            fulltype: "Fully Electric",
-            seat: "5 Seaters",
-            speed: "237 kmph",
-            color: ["red", "white", "black"],
-            price: "PKR 1.94 crore",
-            image: "images/qetron.png"
-        },
-        Q6eTron: {
-            name: "Q6 e-Tron",
-            model: "2022",
-            fulltype: "Fully Electric",
-            seat: "5 Seaters",
-            speed: "124.3 mph",
-            color: ["red", "white", "black"],
-            price: "PKR 5.1 crore",
-            image: "images/q.png"
         }
 
     },
@@ -204,11 +205,11 @@ function setModel() {
 
 
 function searchCar() {
- var carDetail = document.getElementById("car-detail");
- var car = carlist[brand.value][model.value];
- main.style.display = "none";
- carDetail.style.display = "flex"
- carDetail.innerHTML = `
+    var carDetail = document.getElementById("car-detail");
+    var car = carlist[brand.value][model.value];
+    main.style.display = "none";
+    carDetail.style.display = "flex"
+    carDetail.innerHTML = `
  <div class="c1">
  <div class="card-img" id="img-1"><img src="${car.image}""></div>
  <div class="card-info">${car.name} (${car.model})</div>
