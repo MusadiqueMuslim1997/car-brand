@@ -122,7 +122,7 @@ var carlist = {
             speed: "137 mph",
             color: ["red", "white", "black"],
             price: "PKR 99 lacs",
-            image: "images/hcivic.png"
+            image: "images/ss.png"
         },
         MarutiWagonRtour: {
             name: "Maruti Wagon R tour",
@@ -132,7 +132,7 @@ var carlist = {
             speed: "195 kmph",
             color: ["red", "white", "black"],
             price: "PKR 47 lacs",
-            image: "images/hcity.png"
+            image: "images/sr.png"
         },
         MarutiGrandVitara: {
             name: "Maruti Grand Vitara",
@@ -142,7 +142,7 @@ var carlist = {
             speed: "116 mph",
             color: ["red", "white", "black"],
             price: "PKR 2.5 crore",
-            image: "images/hacc.png"
+            image: "images/swift.png"
         }
 
     }
