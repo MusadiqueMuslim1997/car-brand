@@ -206,7 +206,9 @@ function setModel() {
 
 function searchCar() {
     var carDetail = document.getElementById("car-detail");
+    var hero = document.getElementById("hero");
     var car = carlist[brand.value][model.value];
+    hero.style.display = "none";
     main.style.display = "none";
     carDetail.style.display = "flex"
     carDetail.innerHTML = `
