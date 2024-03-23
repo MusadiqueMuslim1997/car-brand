@@ -156,6 +156,9 @@ var main = document.getElementById("main");
 var brand = document.getElementById("brand");
 var model = document.getElementById("model");
 brand.innerHTML += `<option>Select Brand Name</option>`
+
+
+
 for (var key in carlist) {
     brand.innerHTML += `<option vlaue = "${key}">${key}</option>`
     for (var key1 in carlist[key]) {
@@ -191,9 +194,7 @@ for (var key in carlist) {
 }
 
 
-for (var key in carDetail) {
 
-}
 
 
 function setModel() {
@@ -225,3 +226,4 @@ function searchCar() {
 </div>
  `
 }
+

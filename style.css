@@ -55,6 +55,7 @@ header {
     align-items: center;
     justify-content: right;
     gap: 10px;
+    padding: 0px 10px;
 }
 
 .sl-1 {
@@ -66,7 +67,10 @@ header {
     width: 150px;
     height: 30px;
 }
+.all{
+    width: 60px;
 
+}
 button {
     width: 100px;
     height: 30px;
@@ -103,34 +107,42 @@ button:active {
     .search {
         width: 100%;
         justify-content: center;
+      
 
     }
-    button{
+
+    button {
         width: 100px;
         font-size: 1rem;
         padding: 10px;
     }
+    
 
 }
-.hero{
+
+.hero {
     width: 100%;
 
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
     margin-top: 85px;
-   
+    /* display: none; */
+
 }
-.hero > img{
+
+.hero>img {
     width: 100%;
 }
+
 @media screen and (max-width:730px) {
     .hero {
-        
+
         margin-top: 135px;
     }
 }
+
 .main {
     width: 100%;
 
@@ -139,7 +151,8 @@ button:active {
     justify-content: space-between;
     flex-wrap: wrap;
 
-   
+
+
 }
 
 .bg-img {
@@ -161,13 +174,14 @@ button:active {
 .cards {
 
     width: 100%;
-   
+
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 30px 30px;
     gap: 20px;
+    /* display: none; */
 }
 
 .card-1 {
@@ -215,7 +229,7 @@ button:active {
 
 @media screen and (max-width:730px) {
     .cards {
-      
+
         justify-content: space-around;
     }
 }
